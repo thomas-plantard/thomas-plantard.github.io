@@ -1,0 +1,146 @@
+BODY { 
+   font-family : Helvetica, Arial, sans-serif,  "MS sans serif"; 
+   background-color: #ffffff;
+   color: black;
+   font-size : 100%;
+   font-weight : normal; 
+   margin:20px;
+   margin-bottom: 30px;
+}
+
+B  {
+   font-weight : bold; 
+}
+
+
+H1 {
+   font-size : 120%; 
+   margin-bottom : 1em;
+   color : grey;
+}
+
+H1:first-line {
+   font-size : 150%;
+}
+
+H2 {
+   font-size : 100%; 
+   margin:0px;
+   margin-bottom: 1em;
+   margin-top: 1.5em;
+   color : grey ;
+}
+
+A:link 	{
+   text-decoration : none; 
+   color : #333366; 
+   background-color: #FFFFFF; 
+   font-weight : bold; 
+   }
+
+A:visited {
+   text-decoration : none; 
+   color : #444477; 
+   background-color: #FFFFFF; 
+   font-weight : bold; 
+}
+
+A:active  {
+   text-decoration : none; 
+/*   color : #BFDC00; */
+   background-color: #FFFFFF; 
+   font-weight : bold; 
+   text-decoration: underline;
+}
+
+A:hover  {
+   text-decoration : none; 
+/*   color : #BFDC00; */
+   background-color: #FFFFFF;
+   font-weight : bold; 
+   text-decoration: underline;
+}	
+
+DT {
+  font-style: italic;
+}
+
+DD {
+  margin-top: 2pt;
+  margin-bottom: 5pt;
+}
+
+LI {
+  margin-top: 2pt;
+  margin-bottom: 5pt;
+}
+
+.hot {
+  font-weight: bold;
+  font-style: italic;
+  color: #8CA900;
+}
+
+/* The following is commented */
+
+/*
+.justify  {
+   text-align : justify; 
+}
+
+IMG {
+   border-style: none;
+}
+
+
+.code {
+   font-family : Courier; 
+   background-color: lightgray; 
+   border-style : dotted;
+   border-width : 1px;
+   border-color : #666699;
+}
+
+.item  {
+   margin-top : 0px;
+   margin-bottom : 10px;
+   padding-left : 12px;
+   color : black; 
+   background : #FFFFFF url("item.png") no-repeat;
+   font-size : 90%; 
+}
+
+.item:first-line  {
+   font-size : 120%; 
+}
+
+.section  {
+   margin-top : 1em;
+   margin-bottom : 1em;
+   line-height : 110%;
+   text-decoration : none; 
+   font-weight : bold; 
+   font-size : 110%;
+   border-bottom-style : dotted;
+   border-bottom-width : 2px;
+   border-bottom-color : #666699;
+}
+
+.bottomlinks  {
+   text-align: right;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+
+.index {
+   margin-top : 0em;
+   margin-bottom : 1em;
+   border-bottom-style : dotted;
+   border-bottom-width : 1px;
+   border-bottom-color : #666699;
+}
+
+*/
