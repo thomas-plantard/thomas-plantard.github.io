@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 //EN">
+
+<html>
+  <head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=iso-8859-1">
+    <title>MACAO</title>
+    <meta name="AUTHOR" content="thomas plantard">
+    <link type="text/css" rel="stylesheet" href="thomaspl.css">
+  </head>
+  <body>
+    
+    <a name="contact"></a>
+    <hr>
+    
+    <a href="index.html#partners">Partners</a> |
+    <a href="index.html#presentation">Presentation</a> |
+        <a href="index.html#presentation">Timeline</a> 
+    <hr>
+    
+    <h1>MACAO: Mathematics and Algorithms for Cryptographic Advanced Objects</h1>
+    
+    <a name="partners"></a><hr><a href="index.html#partners">Presentation of the Partners</a><br>
+
+    <div style="float: left; width: 50%;">
+      <ul>
+	<li><b>French Partner</b></li>
+	<ul>
+	  <li>INRIA Research center : <a href="https://www.inria.fr/en/research/international-mobility/associate-teams/list-of-associate-teams/(center)/CRI%20de%20Paris">CRI de Paris</a></li>
+	  <li>Inria Research team : <a href="https://team.inria.fr/ouragan/">OURAGAN</a></li>
+	  <li>Principal investigator : <a href="https://webusers.imj-prg.fr/~antoine.joux/">Antoine Joux</a></li>
+	  <li>Team Members: <a href="https://who.rocq.inria.fr/Fabrice.Rouillier/">Fabrice Rouillier</a>, <a href="https://www-almasty.lip6.fr/~bajard/">Jean-Claude Bajard</a></li>
+	  <li>Theme : Algorithmics, Computer Algebra and Cryptology.
+
+	</ul>
+      </ul>
+    </div>
+    <div style="float: right; width: 50%;">
+      <ul>
+	<li><b>Australian Partner</b></li>
+	<ul>
+	  <li>Institution :  <a href="https://uow.edu.au">University of Wollongong</a></li>
+	  <li>Research Center: <a href="https://eis.uow.edu.au/scit/institute-cybersecurity-cryptology/index.html">Institute of Cybersecurity and Cryptology</a></li>
+	  <li>Principal investigator : <a href="https://ssl.informatics.uow.edu.au/MACAO/thomas_plantard.html">Thomas Plantard</a></li>
+	  <li>Team Member: <a href="https://www.uow.edu.au/~wsusilo/">Willy Susilo</a></li>
+	  <li>Theme : Cloud and network security, Post-quantum security, Cryptography and its Applications.
+	</ul>
+      </ul>
+    </div>
+
+    .
+    
+    <a name="presentation"></a><hr><a href="index.html#presentation">Presentation of the Associate Team</a><br>
+
+Since quantum computers have the ability to break the two main problems on which current public cryptography relies, i.e., the factoring and discrete logarithm problem, every step towards the practical realization of these computers raises fears about potential attacks on cryptographic systems. By scrutinizing the techniques proposed to build post-quantum cryptography, we can identify a few candidate hard problems which underly the proposals. One objective of this international project is to precisely assess the security of these cryptographic algorithms. First, by analyzing in a systematic manner the existing resolution algorithms and by assessing their complexity as a function of security parameters. Then, we will consider new algorithmic techniques to solve these candidate hard Post-Quantum problems, both on classical computers and quantum machines aiming at the discovery of new and better algorithms to solve them.
+    <ul>
+    </ul>
+    
+    <a name="timeline"></a><hr><a href="index.html#timeline">Timeline</a><br>
+    
+    <ul>
+      <li><b>2019</b></li>
+      <ul>
+	<li><b>February</b> : Associated Team MACAO created and financially supported by <a href="https://www.inria.fr/en/associate-team/macao">INRIA</a> and <a href="https://news.eis.uow.edu.au/solving-cybersecurity-for-quantum-computing-with-the-sorbonne/">EIS</a>.
+	<li><b>July</b> : Visit of <a href="https://documents.uow.edu.au/~thomaspl/index.html#supervision">Andrea Lesavourey</a> to Sorbonne Université. Andrea Lesavourey is a PhD candidate at UoW under the supervision of Thomas Plantard and Willy Susilo. He is currently working on euclidean lattices and more specifically on ideal lattices. Andrea has been a guest of <a href="https://www-almasty.lip6.fr/~bajard/">Jean-Claude Bajard</a> at the Lip6 laboratory (Jussieu, Sorbonne Université) from the 26th of June to the 5th of July 2019 within the MACAO collaboration. He was able to present his work on ideal lattices over multicubic fields to Jean-Claude Bajard, Antoine Joux and PR Fabrice Rouillier (<a href="pdf/Lesavourey19_multicubic.pdf">Talk</a>). Further discussions followed from it with <a href="https://webusers.imj-prg.fr/~antoine.joux/">Antoine Joux</a> and <a href="https://who.rocq.inria.fr/Fabrice.Rouillier/">Fabrice Rouillier</a> on the possibility of improving cube root computations in multicubic fields. Several methods were suggested for new directions.
+	<li><b>September</b>: Visit of <a href="https://www.uow.edu.au/~thomaspl/">Thomas Plantard</a> to Sorbonne Université from August 26 to September 15. He works with <a href="https://www-almasty.lip6.fr/~bajard/">Jean-Claude Bajard</a> on the bouds of existence of PMNS (Polynomial Modular Number System).
+	<li><b>November 25-28</b>: <a href="https://ssl.informatics.uow.edu.au/MACAO/workshop_2019.html">First Collaborative Workshop</a> at the University of Wollongong.
+      </ul>
+      
+      
+    </ul>
+    <br>
+    <hr>
+    <br> 
+    <b>Last Update: November 01, 2019.</b><br> 
+    
+  </body>
+</html>
