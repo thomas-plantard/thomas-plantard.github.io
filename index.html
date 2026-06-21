@@ -14,7 +14,7 @@
     <hr>
     <a href="index.html#contact">Contact</a> |
     <a href="index.html#news">News</a> |
-    <a href="index.html#research">Actvities</a> |
+    <a href="index.html#research">Activities</a> |
     <a href="index.html#curriculum">Curriculum</a> |
     <a href="index.html#supervision">Supervision</a> | 
     <a href="index.html#journal">Journal</a> |
@@ -25,59 +25,123 @@
     <hr>
     <img src="plantard.jpg" height="277.8" width="223.9" align="right">
     <h1>Thomas Plantard</h1>
-
+    
     <b>Cryptographic Researcher</b> <br><br>
+    
+    <b>Researcher in Post-Quantum Cryptography</b> <br><br>
+    
     
     PhD in Computer Science<br><br>
     
     <a name="contact"></a>
     
-    <!--     <a href="mailto:thomas.plantard@gmail.com">thomas.plantard@gmail.com</a><br> -->
+         <a href="mailto:thomas.plantard@gmail.com">thomas.plantard@gmail.com</a><br> 
     <a href="mailto:thomas.plantard@nokia-bell-labs.com">thomas.plantard@nokia-bell-labs.com</a><br> 
 	
 	<br><a name="news"></a><hr><a href="index.html#news">News</a><br><br>
 	
-	<!-- Open to opportunities for a research position in R&D.<br><br> -->
-	I am working at Nokia Bell Labs.<br> 
+	Open to opportunities for an interesting research position in R&D.<br>
+	
+	<!-- I am working at Nokia Bell Labs.<br> -->
 	
 	<br><a name="research"></a><hr><a href="index.html#research">Research Activities</a><br><br>
-	My research interests are around cryptologic problems with a focus on <b>Post-Quantum Cryptography</b>, i.e. quantum-resistant cryptography.<br><br>
+	I focus my research on cryptologic problems, specifically on <b>Post-Quantum Cryptography</b> (PQC), i.e. quantum-resistant cryptography. My research is structured around three axes.<br>
 
-	I submited two candidates to the <a href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography">NIST Call for Post-Quantum Cryptography Standardization</a> and one candidate to <a href="https://csrc.nist.gov/projects/pqc-dig-sig">NIST Call for Additional Signature</a>:
+	<ul> 
+	  <li>	    <b> New Schemes Proposition</b>. Specifically, I submitted two candidates to the <a href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography">NIST Call for Post-Quantum Cryptography Standardization</a> and one candidate to <a href="https://csrc.nist.gov/projects/pqc-dig-sig">NIST Call for Additional Signature</a>:
 	<ul>
 	  <li> <a href="drs"><b>DRS</b>, 	    A lattice based signature</a>	  </li>
 	  <li> <a href="odd_manhattan"><b>Odd Manhattan</b>, 	    A lattice based Key Encapsulation Mechanism</a></li>
 	  <li> <a href="https://pqcalteq.github.io/"><b>ALTEQ</b>,  An alternating trilinear form based signature</a></li>	  
+	</ul>	
+	  </li>
+	  <li><b>Cryptographic Acceleration</b>. I work on improving the core operations for Post-Quantum Cryptography, Elliptic Curve Cryptography, RSA as well as specific protocols like FHE, ZKP (MSM Acceleration) or MPC.<br>
+	<ul>
+	  <li> My work on <a href="pdf/Plantard21.pdf"> Efficient Word Size Modular Arithmetic </a> is now use in a large number of implementations for lattice based cryptography. <br>
+	  </li>
+	  <li> I have been invited at Institute Henri Poincare to present at the workshop on <a href="https://indico.math.cnrs.fr/event/5776/">Deployment of post-quantum cryptography</a> on the subject of Modular Arithmetic for PQC Implementations. (<a  href="pdf/Plantard24_talk-ihp+ref.pdf">slides.pdf</a>,<a href="https://www.carmin.tv/en/video/modular-arithmetic-for-pqc-implementations">video</a>)<br>
+	  </li>
+	  <li> During my PhD, I created the <b>PMNS</b>, Polynomial Modular Number System, that has now developed to a full topic of research to provide and <b>side-channel resistant</b> solutions for cryptography. As an example, I recently participated to the Jury of <a href="https://palma.univ-tln.fr/download/these.pdf">Francois Palma</a>, one of the multiple PhD students dedicating their study to this topic.
+	  </li>
+	</ul>
+	  </li>
+	  <li>	<b>Cryptanalysis</b>. I focus on security evaluation of <b>lattice based cryptography</b>.
+	<ul>
+	  <li> I work evaluating the security impact on adding structure (Ideal, Ring, Module) on Lattice. As an example, iLLL  accelerating lattice reduction on Ideal Lattice.
+	  </li>	  
+	  <li> I helped build an <a href="http://www.latticechallenge.org/ideallattice-challenge/index.php">Ideal Lattice Challenge</a>.<br>
+	  </li>	  
+	</ul>
+	  </li>
+	</ul>
 
+	Currently, I am working on
+	<ul>
+	  <li> Accelerating <b>ML-KEM, ML-DSA</b>, New Hope and NTRU by improving <b>NTT</b> computation. <br>	    
+	  <li> Optimizing <b> Lattice Enumeration </b> to provide fine security evaluation of lattice based cryptography. <br>
+	  <li> Reorganizing <b> Hybrid PQ/T </b> to help with the PQC Migration.
+	</ul>
+
+
+	    
+
+	
+	<!--
+
+	  <li> I held in Wollongong with the First Workshop on <a href="macao/workshop_2019.html">Mathematics and Algorithms for Cryptographic Advanced Objects</a>
+	  <li> Using lattice, I also did multiple works on <b>Homomorphic Encryption</b>, i.e. encyption of data which allows its manipulation without decrypting it.
 	</ul>
 	
-	I deal with <b>lattice theory for cryptography</b>, an example is my participation
-	<ul>
-	  
-      <li> I helped build an <a href="http://www.latticechallenge.org/ideallattice-challenge/index.php">Ideal Lattice Challenge</a>.<br>
-      <li> I held in Wollongong with the First Workshop on <a href="macao/workshop_2019.html">Mathematics and Algorithms for Cryptographic Advanced Objects</a>
-      <li> Using lattice, I also did multiple works on <b>Homomorphic Encryption</b>, i.e. encyption of data which allows its manipulation without decrypting it.
-</ul>
-       Since my Ph.D., I also worked on <b>modular arithmetic</b> and <b>number system</b> with a focus on building efficient and <b>side-channel resistant</b> cryptosystems, in particular for <b>Elliptic Curve Cryptography</b>.<br><br>
+	Since my Ph.D., I also worked on <b>modular arithmetic</b> and <b>number system</b> with a 
 
-    Some recents works on
-	<ul>
+
 	  <li> Post-Quantum Cryptography is <b>Practical Post-Quantum Signature Schemes from Isomorphism Problems of Trilinear Forms</b>, Accepted to <a href="https://eurocrypt.iacr.org/2022/">Eurocrypt 2022</a>. Trondheim, Norway, May 30-June 3, 2022.
 	  </li>
 	  <li> Modular Arithmetic is <b>Efficient Word Size Modular Arithmetic</b>, accepted to be published at IEEE Transactions on Emerging Topics in Computing. (<a href="pdf/Plantard21.pdf">paper.pdf</a>) <br>
 	  </li>
 	</ul>
+-->
+	    
 
-	I have been invited at Institut Henri Poincare to present at the workshop on <a href="https://indico.math.cnrs.fr/event/5776/">Deployment of post-quantum cryptography</a> on the subject of Modular Arithmetic for PQC Implementations. (<a  href="pdf/Plantard24_talk-ihp+ref.pdf">slides.pdf</a>,<a href="https://www.carmin.tv/en/video/modular-arithmetic-for-pqc-implementations">video</a>)<br>        	
     </ul>
 
     
     <br><a name="curriculum"></a><hr><a href="index.html#curriculum">Curriculum</a><br><br>
-
-    <b>Employement</b>
+<!--
+    <b>Employment</b>
     <ul>
-      <li>  Senior Researcher in the Network Systems and Security Research lab of <a href="https://www.bell-labs.com/">Nokia Bell Labs</a>, 2023.<br>
+      <li>  Senior Researcher in the Network Systems and Security Research lab of <a href="https://www.bell-labs.com/">Nokia Bell Labs</a>, since 2023.<br>
       <li>  Cryptographic Researcher in the Emerging Technology Research Group of <a href="https://www.paypal.com/au/home">PayPal</a>, 2022.<br>
+      <li>  Senior Research Fellow in the Institute for Cybersecurity and Cryptology of the <a href="http://www.uow.edu.au/">University of Wollongong</a>, 2014-2021.<br>
+      <li>  Research Fellow in the Centre for Computer and Information Security Research of the <a href="http://www.uow.edu.au/">University of Wollongong</a>, 2009-2013.<br>
+      <li>  Associate Research Fellow in the Centre for Computer and Information Security Research of the <a href="http://www.uow.edu.au/">University of Wollongong</a>, 2006-2009.<br>
+      <li>  Associate Lecturer in the Computer Science department of the <a href="https://www.umontpellier.fr/en/">University de Montpellier II</a>, 2004-2006.<br>
+    </ul>
+    <br>
+
+    <b>Education</b>
+    <ul>
+      <li>  PhD in Computer Science at the <a href="https://www.umontpellier.fr/en/">University de Montpellier II</a>, 2002-2005.<br>
+      <li>  Master degree in Computer Science at the <a href="https://www.u-bordeaux.com/">University de Bordeaux I</a>, 2001-2002.<br>
+      <li>  Degrees in Computer Science at the <a href="https://www.u-bordeaux.com/">University de Bordeaux I</a>, 1999-2001.<br>
+      <li>  Degree in Mathematics at the <a href="https://www.u-bordeaux.com/">University de Bordeaux I</a>, 1997-1999.<br>
+    </ul>
+    -->
+    <b>Employment</b>
+    <ul>
+      <li>  Senior Researcher in the Network Systems and Security Research lab of <a href="https://www.bell-labs.com/">Nokia Bell Labs</a>, since 2023.<br>
+	<ul>
+	  <li> NIST PQC standards: ALTEQ
+	  <li> Number Theoretic Transform (NTT) Acceleration for ML-KEM, ML-DSA
+	  <li> Hybrid PQ/T
+	  <li> Multi Scalar Multiplication acceleration for Zero Knowledge Proof
+	</ul>	
+      <li>  Cryptographic Researcher in the Emerging Technology Research Group of <a href="https://www.paypal.com/au/home">PayPal</a>, 2022.<br>
+	<ul>
+	  <li>Secure Multi-Party Computation (MPC)
+	  <li>Migration to Post-Quantum Cryptography
+	  <li>Elliptic Curve Cryptography (ECC) Acceleration
+	</ul>
       <li>  Senior Research Fellow in the Institute for Cybersecurity and Cryptology of the <a href="http://www.uow.edu.au/">University of Wollongong</a>, 2014-2021.<br>
       <li>  Research Fellow in the Centre for Computer and Information Security Research of the <a href="http://www.uow.edu.au/">University of Wollongong</a>, 2009-2013.<br>
       <li>  Associate Research Fellow in the Centre for Computer and Information Security Research of the <a href="http://www.uow.edu.au/">University of Wollongong</a>, 2006-2009.<br>
@@ -91,15 +155,17 @@
       <li>  Degrees in Computer Science at the <a href="https://www.u-bordeaux.com/">University de Bordeaux I</a>, 1999-2001.<br>
       <li>  Degree in Mathematics at the <a href="https://www.u-bordeaux.com/">University de Bordeaux I</a>, 1997-1999.<br>
     </ul>
-    
-    
-    
+        
     
     <br><a name="supervision"></a><hr><a href="index.html#supervision">Supervision</a><br><br>
     
     <!-- I actually supervise one PhD candidate:    <ul>            <li>  <a href="index.html#supervision">Q.-H. Le</a>, <b>PhD candidate</b>  in Computer Science.	<ul>	  <li> Internet of Things and Cloud Based Privacy-Preserving Computations: Machine Learning in Combination with Fully Homomorphic Encryption 	</ul>    </ul>    Previous student: -->
-
+    
     <ul>
+      <li>  <a href="index.html#supervision">L. Noel</a>,  <b> PhD Candidate</b> in Mathematics - <b>Present</b>.
+	<ul>
+	  <li> Hybrid Solution (PQ/T) to enable smooth transition to Post-Quantum Cryptography <br>  
+	</ul>
       <li>  <a href="index.html#supervision">A. Lesavourey</a>,  <b> Doctor</b> of Philosophy in Computer Science - <b>2021</b>.
 	<ul>
 	  <li> Usability of structured lattices for a post-quantum cryptography: practical computations, and a study of some real Kummer extensions (<a href="pdf/Lesavourey21.pdf">thesis.pdf</a>)   <br>  
@@ -136,13 +202,13 @@
     <ol type="1">
 
       <li> <b>Computing multi-scalar multiplication on memory-constrained devices</b>,<br>
-	L. Noel and <a href="index.html">T. Plantard</a> <br>
+	<a href="https://sites.google.com/view/leo-noel/">L. Noel</a> and <a href="index.html">T. Plantard</a> <br>
 	Accepted to be published in <a href="http://jcen.info/home.html">Journal of Cryptographic Engineering</a> (<a href="pdf/NoePla26.pdf">paper.pdf</a>) <br>
       </li>                                                                                                     
 
       
       <li> <b>Diagonally dominant matrices for cryptography</b>,<br>
-	<a href="https://andlesav.github.io/">A. Lesavourey</a>,  K. Fukushima, <a href="index.html">T. Plantard</a> and <a href="index.html#supervision">A. Sipasseuth</a> <br>
+ 	<a href="https://andlesav.github.io/">A. Lesavourey</a>, K. Fukushima, <a href="index.html">T. Plantard</a> and <a href="index.html#supervision">A. Sipasseuth</a> <br>
 	Published in <a href="https://cic.iacr.org/">IACR Communications in Cryptology</a> ,  Volume 2, Issue 2, Jul 2025, 35 pages. (<a href="https://cic.iacr.org/p/2/2/14/pdf">paper.pdf</a>) <br>
       </li>                                                                                                     
 
@@ -551,7 +617,24 @@
     <br><a name="committee"></a><hr><a href="index.html#committee">Committee</a>
     
     <ul>
-      
+      <li> <b>PhD Jury</b>
+	<ul>
+	  <li> Francois Palma, PhD on "Modular Arithmetic for public key cryptography", Universite de Toulon, France.</li>
+	  <li> Jean-Marc Robert, PhD on "Algorithms for secure and efficient elliptic curve scalar multiplication implementation", Universite de Perpignan Via Domitia, France.</li>
+	</ul>
+
+      <li> <b>Workshop Organisation</b>
+	<ul>
+	  <li>MACAO: <a href="https://ssl.informatics.uow.edu.au/MACAO/workshop_2019.html">First Workshop On Mathematics and Algorithms for Cryptographic Advanced Objects</a>, 25-28 November 2019, Wollongong, Australia.
+        </ul>
+
+      <li> <b>Session Chair</b>
+	<ul>
+	  <li> WRAC'H,  Workshop on Randomness and Arithmetics for Cryptography on Hardware, Roscoff, France. April 15-19, 2019.</li>
+	  <li> ACISP 23,  23rd Australasian Conference, ACISP 2018, Wollongong, NSW, Australia, July 11-13, 2018.</li>
+	  <li> ACISP 19,  19th Australasian Conference, ACISP 2014, Wollongong, NSW, Australia, July 7-9, 2014. </li>
+	</ul>
+	
       <li> <b>Program Committee</b>
 	<ul>
 	  <li>SECURWARE 2021, The Fifteenth International Conference on Emerging Security Information, Systems and Technologies, Nov 14-18, 2021, Athens, Greece.</li>
@@ -562,26 +645,7 @@
           <li> ARITH 24,  24th IEEE Symposium on Computer Arithmetic, Jul 24-26, 2017, London, UK.</li>                                                                                                             
           <li> ARITH 23,  23rd IEEE Symposium on Computer Arithmetic, Jul 10-13, 2016, Santa Clara, California.</li>
 	</ul>
-      <li> <b>Workshop Organisation</b>
-	<ul>
-	  <li>MACAO: <a href="https://ssl.informatics.uow.edu.au/MACAO/workshop_2019.html">First Workshop On Mathematics and Algorithms for Cryptographic Advanced Objects</a>, 25-28 November 2019, Wollongong, Australia.
-        </ul>
-	
-                                       
-      <li> <b>PhD Jury</b>
-	<ul>
-	  <li> Jean-Marc Robert, PhD on "Algorithms for secure and efficient elliptic curve scalar multiplication implementation", Universite de Perpignan Via Domitia, France.</li>
-	</ul>
-	
-      <li> <b>Session Chair</b>
-	<ul>
-	  <li> WRAC'H,  Workshop on Randomness and Arithmetics for Cryptography on Hardware, Roscoff, France. April 15-19, 2019.</li>
-	  <li> ACISP 23,  23rd Australasian Conference, ACISP 2018, Wollongong, NSW, Australia, July 11-13, 2018.</li>
-	  <li> ACISP 19,  19th Australasian Conference, ACISP 2014, Wollongong, NSW, Australia, July 7-9, 2014. </li>
-	</ul>
 
-
-	
       <li> <b>Other Committee</b>
 	<ul>
 	  <li> NSW Cyber Security Network Committee, 2017-2019.</li>
@@ -615,7 +679,7 @@
         <br>
     <hr>
     <br> 
-    <b>Last Update: May 12, 2026.</b><br> 
+    <b>Last Update: Jun 21, 2026.</b><br> 
     
   </body>
 </html>
