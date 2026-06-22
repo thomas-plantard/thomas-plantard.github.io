@@ -13,7 +13,7 @@
     <a name="contact"></a>
     <hr>
     <a href="index.html#contact">Contact</a> |
-    <a href="index.html#news">News</a> |
+    <!--<a href="index.html#news">News</a> |-->
     <a href="index.html#research">Activities</a> |
     <a href="index.html#curriculum">Curriculum</a> |
     <a href="index.html#supervision">Supervision</a> | 
@@ -38,48 +38,50 @@
          <a href="mailto:thomas.plantard@gmail.com">thomas.plantard@gmail.com</a><br> 
 	 <!--<a href="mailto:thomas.plantard@nokia-bell-labs.com">thomas.plantard@nokia-bell-labs.com</a><br>  -->
 	
-	<br><a name="news"></a><hr><a href="index.html#news">News</a><br><br>
+	 <br><a name="news"></a><hr><a href="index.html#news"></a><br> 
+
+	 
 	
 	Open to opportunities for an interesting research position in R&D.<br>
 	
 	<!-- I am working at Nokia Bell Labs.<br> -->
 	
 	<br><a name="research"></a><hr><a href="index.html#research">Research Activities</a><br><br>
-	I focus my research on cryptologic problems, specifically on <b>Post-Quantum Cryptography</b> (PQC), i.e. quantum-resistant cryptography. My research is structured around three axes.<br>
+	The focus of my research on cryptologic problems, specifically on <b>Post-Quantum Cryptography</b> (PQC), i.e. quantum-resistant cryptography. My projects are structured around three axes.<br>
 
 	<ul> 
-	  <li>	    <b> New Schemes Proposition</b>. Specifically, I submitted two candidates to the <a href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography">NIST Call for Post-Quantum Cryptography Standardization</a> and one candidate to <a href="https://csrc.nist.gov/projects/pqc-dig-sig">NIST Call for Additional Signature</a>:
+	  <li>	    <b> New Schemes Proposition</b>. Specifically, I led a project that succesfully submit two candidates to the <a href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography">NIST Call for Post-Quantum Cryptography Standardization</a> and led the acceleration part for a candidate to <a href="https://csrc.nist.gov/projects/pqc-dig-sig">NIST Call for Additional Signature</a>:
 	<ul>
-	  <li> <a href="drs"><b>DRS</b>, 	    A lattice based signature</a>	  </li>
-	  <li> <a href="odd_manhattan"><b>Odd Manhattan</b>, 	    A lattice based Key Encapsulation Mechanism</a></li>
+	  <li> <a href="drs/index.html"><b>DRS</b>, 	    A  Diagonal Dominant lattice based signature</a>	  </li>
+	  <li> <a href="odd_manhattan/index.html"><b>Odd Manhattan</b>, 	    A Unstructured lattice based Key Encapsulation Mechanism</a></li>
 	  <li> <a href="https://pqcalteq.github.io/"><b>ALTEQ</b>,  An alternating trilinear form based signature</a></li>	  
 	</ul>	
 	  </li>
-	  <li><b>Cryptographic Acceleration</b>. I work on improving the core operations for Post-Quantum Cryptography, Elliptic Curve Cryptography, RSA as well as specific protocols like FHE, ZKP (MSM Acceleration) or MPC.<br>
+	  <li><b>Cryptographic Acceleration</b>. I work on improving the core operations for Post-Quantum Cryptography, Elliptic Curve Cryptography and RSA as well as specific protocols like FHE, ZKP (MSM Acceleration) or MPC.<br>
 	<ul>
-	  <li> My work on <a href="pdf/Plantard21.pdf"> Efficient Word Size Modular Arithmetic </a> is now use in a large number of implementations for lattice based cryptography. <br>
+	  <li> My work on <a href="pdf/Plantard21.pdf"> Efficient Word Size Modular Arithmetic </a> is now used in a large number of implementations for lattice based cryptography. <br>
 	  </li>
-	  <li> I have been invited at Institute Henri Poincare to present at the workshop on <a href="https://indico.math.cnrs.fr/event/5776/">Deployment of post-quantum cryptography</a> on the subject of Modular Arithmetic for PQC Implementations. (<a  href="pdf/Plantard24_talk-ihp+ref.pdf">slides.pdf</a>,<a href="https://www.carmin.tv/en/video/modular-arithmetic-for-pqc-implementations">video</a>)<br>
+	  <li> I have been invited at the Institute Henri Poincare to present at the workshop on <a href="https://indico.math.cnrs.fr/event/5776/">Deployment of post-quantum cryptography</a> on the subject of Modular Arithmetic for PQC Implementations. (<a  href="pdf/Plantard24_talk-ihp+ref.pdf">slides.pdf</a>,<a href="https://www.carmin.tv/en/video/modular-arithmetic-for-pqc-implementations">video</a>)<br>
 	  </li>
-	  <li> During my PhD, I created the <b>PMNS</b>, Polynomial Modular Number System, that has now developed to a full topic of research to provide and <b>side-channel resistant</b> solutions for cryptography. As an example, I recently participated to the Jury of <a href="https://palma.univ-tln.fr/download/these.pdf">Francois Palma</a>, one of the multiple PhD students dedicating their study to this topic.
+	  <li> During my a <a href="index.html#phd">Ph.D.</a>, I created the <b>PMNS</b>, Polynomial Modular Number System, that has now developed to a full topic of research to provide efficient and <b>side-channel resistant</b> solutions for cryptography. As an example, I recently participated to the Jury of <a href="https://palma.univ-tln.fr/download/these.pdf">Francois Palma</a>, one of the multiple PhD students dedicating their studies to this topic.
 	  </li>
 	</ul>
 	  </li>
 	  <li>	<b>Cryptanalysis</b>. I focus on security evaluation of <b>lattice based cryptography</b>.
 	<ul>
-	  <li> I work evaluating the security impact on adding structure (Ideal, Ring, Module) on Lattice. As an example, iLLL  accelerating lattice reduction on Ideal Lattice.
+	  <li> I work on evaluating the security impact on adding structure (Ideal, Ring, Module) on Lattice. As an example, I led the project to build the first adaptation of LLL to a structured lattice i.e. Ideal Lattice, to evaluate the security of FHE schemes (<a href="index.html#illl">iLLL</a>).
 	  </li>	  
-	  <li> I helped build an <a href="http://www.latticechallenge.org/ideallattice-challenge/index.php">Ideal Lattice Challenge</a>.<br>
+	  <li> I was invited at TU Darmstadt to build the <a href="http://www.latticechallenge.org/ideallattice-challenge/index.php">Ideal Lattice Challenge</a>.<br>
 	  </li>	  
 	</ul>
 	  </li>
 	</ul>
 
-	Currently, I am working on
+	Currently, I am currently
 	<ul>
 	  <li> Accelerating <b>ML-KEM, ML-DSA</b>, New Hope and NTRU by improving <b>NTT</b> computation. <br>	    
 	  <li> Optimizing <b> Lattice Enumeration </b> to provide fine security evaluation of lattice based cryptography. <br>
-	  <li> Reorganizing <b> Hybrid PQ/T </b> to help with the PQC Migration.
+	  <li> Leading a project on <b> Hybrid PQ/T </b> to support the PQC Migration.
 	</ul>
 
 
@@ -296,7 +298,8 @@
 	<a href="index.html#supervision">C. Gritti</a>,  <a href="http://www.uow.edu.au/~wsusilo/">W. Susilo</a>,  <a href="index.html">T. Plantard</a>,  <a href="http://users.ics.aalto.fi/ktliang/">K. Liang</a> and <a href="http://www.cs.cityu.edu.hk/~duncan/">D. S. Wong</a><br>
 	<a href="http://jowua.yolasite.com"> Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications</a>, Volume 5, Number 4, December 2014, pages 3-28. (<a href="pdf/GSPLW14.pdf">paper.pdf</a>)<br>
       </li>
-      
+
+      <a name="illl"></a><a href="index.html#illl"></a>
       <li> <b>LLL for Ideal Lattices: Re-evaluation of the Security of Gentry-Halevi's FHE Scheme</b>,<br>
 	<a href="index.html">T. Plantard</a>,  <a href="http://www.uow.edu.au/~wsusilo/">W. Susilo</a> and  <a href="index.html#supervision">Z. Zhang</a> <br>
 	<a href="http://link.springer.com/journal/10623">Designs, Codes and Cryptography</a>, Volume 76, Issue 2, March 2014, pages 325-344. (<a href="pdf/PlaSusZha14.pdf">paper.pdf</a>)<br>
@@ -619,7 +622,7 @@
     <ul>
       <li> <b>PhD Jury</b>
 	<ul>
-	  <li> Francois Palma, PhD on "Modular Arithmetic for public key cryptography", Universite de Toulon, France.</li>
+	  <li> Francois Palma, PhD on "Modular Arithmetic for public key cryptography", Universite de Toulon, France. (<a href="https://palma.univ-tln.fr/download/these.pdf">Thesis.pdf</a>)</li>
 	  <li> Jean-Marc Robert, PhD on "Algorithms for secure and efficient elliptic curve scalar multiplication implementation", Universite de Perpignan Via Domitia, France.</li>
 	</ul>
 
