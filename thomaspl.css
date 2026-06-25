@@ -81,6 +81,13 @@ LI {
   color: #8CA900;
 }
 
+ .main-header {
+  position: sticky; /* Activates sticky behavior */
+  top: 0;           /* Locks it to the very top of its container */
+  z-index: 100;     /* Ensures it floats above underlying content */
+  background-color: #ffffff; /* Prevents text bleeding through */
+}
+
 /* The following is commented */
 
 /*
